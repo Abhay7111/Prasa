@@ -8,7 +8,7 @@ function Nav() {
             <div className='w-fit h-20 uppercase text-[9vw] relative flex items-center justify-start font-medium '><NavLink to={``}>Prasa.</NavLink></div>
         </div>
         <div className='flex flex-col w-full pl-5'>
-            <ul className='flex w-full items-start justify-between pl-5 py-3'>
+            <ul className='flex flex-col gap-2 sm:gap-0 sm:flex-row w-full items-end sm:items-start justify-between pl-5 py-3'>
                 <ul className='flex gap-6'>
                     <NavLink to={`/`}><li className='uppercase tracking-tighter text-sm font-medium list-disc'>Home</li></NavLink>
                     <NavLink to={`/`}><li className='uppercase tracking-tighter text-sm font-medium list-disc'>About</li></NavLink>

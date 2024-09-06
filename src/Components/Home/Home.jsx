@@ -22,7 +22,32 @@ function Home() {
             </div>
         </div>
         </div>
-        <div className=' w-full min-h-screen'>
+        <div className=' w-full pt-10 h-fit'>
+            <div className='flex flex-col sm:flex-row sm:items-center justify-center sm:justify-between'>
+                <h1 className='text-6xl sm:text-9xl text-start px-5 w-full sm:w-fit'>Find the perfect</h1>
+                <h2 className='text-4xl sm:text-7xl w-full py-10 sm:pl-0 pl-10 sm:w-fit text-end'>Pieces to match Your style.</h2>
+            </div>
+            <div className='py-10 w-full h-fit overflow-x-auto'>
+                <div className='flex items-center justify-start gap-5 w-fit px-10 sm:px-0'>
+                <div className='w-[80vw] sm:w-[32vw] h-96'>
+                    <img src="https://cdn.pixabay.com/photo/2018/01/06/23/43/girl-3066198_1280.jpg" alt="Image not found" className='text-xl font-bold uppercase w-full h-full object-cover' />
+                </div>
+                <div className='w-[80vw] sm:w-[32vw] bg-[#ddddfa] sm:bg-transparent h-96 p-1 flex flex-col items-start justify-between'>
+                    <div>
+                        <p className='text-xl font-medium'>132 collections</p>
+                        <h3 className='text-3xl font-bold uppercase'>Boucles <br /> d'oreilles</h3>
+                    </div>
+                    <div>
+                        <p className='opacity-75'>From delicate studs to statement hoops, <br /> each pair is crafted with precision and care, <br /> ensuring you find the perfect earrings <br /> to express your personal style.</p>
+                    <NavLink to={`/`}><li className='uppercase tracking-tighter text-sm font-bold list-disc'>Go to collections</li></NavLink>
+                    </div>
+
+                </div>
+                <div className='w-[80vw] sm:w-[32vw] h-96'>
+                    <img src="https://cdn.pixabay.com/photo/2017/07/20/15/16/earring-2522608_1280.jpg" alt="Image not found" className='text-xl font-bold uppercase w-full h-full object-cover' />
+                </div>
+                </div>
+            </div>
 
         </div>
     </div>
