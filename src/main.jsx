@@ -4,7 +4,6 @@ import './index.css'
 import { createBrowserRouter, Route, RouterProvider } from 'react-router-dom'
 import Nav from './Components/Nav/Nav.jsx'
 import Local from './Components/Local/Local.jsx'
-import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const routes= createBrowserRouter([
   {path:'/', element:<Local/>,}
