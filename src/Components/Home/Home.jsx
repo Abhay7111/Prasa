@@ -72,16 +72,36 @@ function Home() {
 
         </div>
         <div className='flex flex-col w-full'>
-            <div className='flex w-full h-fit py-10 items-start justify-between'>
-                <div className='flex h-72 flex-col p-5 items-start justify-between'>
-                </div>
-                <div className='w-full flex flex-col items-center'>
-                    <p className='sm:text-[4vw] w-full justify-between flex uppercase pr-5 items-center font-semibold'><hr className='border-b-2 border-zinc-700 w-80'/><span>Accessories is not</span> <NavLink to={`/`}><li className='text-lg list-disc font-bold'>[cart]</li></NavLink></p>
-                    <p className='sm:text-[4vw] font-semibold leading-none uppercase ml-[10%]'>just add-ons</p>
-                    <p className='sm:text-[4vw] font-semibold leading-none uppercase ml-[45%]'>it's essential for</p>
-                    <p className='sm:text-[4vw] font-semibold leading-none w-full flex items-center justify-between uppercase'> <span className='flex flex-col text-sm font-light'><span className='opacity-90'>Total products</span><span className='text-lg font-bold opacity-100'>(365)</span></span> personal style.</p>
-                </div>
+            <div className='flex w-full h-fit py-10 items-start justify-between pl-3 sm:px-5'>
+                    <div className='w-full flex flex-col items-center gap-2'>
+                        <p className='sm:text-[4vw] text-[9vw] w-full justify-between flex flex-col sm:flex-row uppercase leading-none pr-5 items-center font-semibold relative'><hr className='border-b-2 border-zinc-700 w-full sm:w-80 sm:mb-0 mb-10'/><span>Accessories is not</span> <NavLink to={`/`} className='absolute top-2 right-1 sm:relative sm:top-0 sm:right-0'><li className='text-lg list-disc font-bold'>[cart]</li></NavLink></p>
+                        <p className='sm:text-[4vw] text-[9vw] font-semibold leading-none uppercase w-full sm:w-fit sm:ml-[10%]'>just add-ons</p>
+                        <p className='sm:text-[4vw] text-[9vw] font-semibold leading-none uppercase w-full sm:w-fit sm:ml-[45%]'>it's essential for</p>
+                        <p className='sm:text-[4vw] text-[9vw] font-semibold leading-none w-full flex flex-col-reverse gap-5 sm:gap-0 sm:flex-row sm:items-center justify-between uppercase'> <span className='flex flex-col text-sm font-light'><span className='opacity-90'>Total products</span><span className='text-lg font-bold opacity-100'>(365)</span></span> personal style.</p>
+                    </div>
             </div>  
+            <div className='w-full overflow-x-auto flex items-center justify-start sm:justify-center'>
+                <div className='w-fit h-96 px-5 flex items-center justify-start gap-5'>
+                    <div className='h-full w-80 p-3 gap-3 flex flex-col items-start justify-end'>
+                        <p className='text-sm opacity-80 pr-16'>Our mission is to bring you the latest trends and timeless classics that enhance your individuality. Each piece in our collection is carefully selected its quality, design, and ability to make you feel confident and chic.</p>
+                        <NavLink to={`/`}><li className='uppercase font-bold tracking-tighter text-sm list-disc'>shop now</li></NavLink>
+                    </div>
+                    <div className='h-full w-80 gap-3 flex flex-col p-3'>
+                        <p className='w-[60%] font-medium leading-none ml-5 uppercase'>The best materials and craftsmanship.</p>
+                        <img src="https://cdn.pixabay.com/photo/2016/06/11/22/43/earring-1451014_1280.jpg" alt="image Not Found" className=' uppercase w-full h-full object-cover text-xl font-bold' />
+                    </div>
+                    <div className='h-full w-80 gap-3 flex flex-col p-3'>
+                        <img src="https://cdn.pixabay.com/photo/2023/10/12/13/35/earrings-8310858_1280.jpg" alt="image Not Found" className=' uppercase w-full h-full object-cover text-xl font-bold' />
+                        <p className='w-[50%] font-medium leading-none ml-5 uppercase'>Your satisfaction is our priority.</p>
+                    </div>
+                    <div className='h-full w-80 gap-3 flex flex-col p-3'>
+                        <img src="https://cdn.pixabay.com/photo/2017/05/12/11/30/girl-2306831_1280.jpg" alt="image Not Found" className=' uppercase w-full h-full object-cover text-xl font-bold' />
+                    </div>
+                    <div className='h-full w-80 gap-3 flex flex-col p-3'>
+                        <img src="https://cdn.pixabay.com/photo/2015/12/13/05/45/jewels-1090711_1280.jpg" alt="image Not Found" className=' uppercase w-full h-full object-cover text-xl font-bold' />
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
   )
