@@ -48,7 +48,40 @@ function Home() {
                 </div>
                 </div>
             </div>
+            <div className='py-10 w-full h-fit overflow-x-auto'>
+                <div className='flex items-center justify-start gap-5 w-fit px-10 sm:px-0'>
+                <div className='w-[80vw] sm:w-[32vw] bg-[#ddddfa] sm:bg-transparent h-96 p-1 flex flex-col items-start justify-between'>
+                    <div>
+                        <p className='text-xl font-medium'>132 collections</p>
+                        <h3 className='text-3xl font-bold uppercase'>Boucles <br /> d'oreilles</h3>
+                    </div>
+                    <div>
+                        <p className='opacity-75'>From delicate studs to statement hoops, <br /> each pair is crafted with precision and care, <br /> ensuring you find the perfect earrings <br /> to express your personal style.</p>
+                        <NavLink to={`/`}><li className='uppercase tracking-tighter text-sm font-bold list-disc'>Go to collections</li></NavLink>
+                    </div>
 
+                </div>
+                <div className='w-[80vw] sm:w-[32vw] h-96'>
+                    <img src="https://cdn.pixabay.com/photo/2019/12/18/13/59/christmas-4704072_1280.jpg" alt="Image not found" className='text-xl font-bold uppercase w-full h-full object-cover' />
+                </div>
+                <div className='w-[80vw] sm:w-[32vw] h-96'>
+                    <img src="https://cdn.pixabay.com/photo/2016/10/04/18/29/cattle-show-1715098_1280.jpg" alt="Image not found" className='text-xl font-bold uppercase w-full h-full object-cover' />
+                </div>
+                </div>
+            </div>
+
+        </div>
+        <div className='flex flex-col w-full'>
+            <div className='flex w-full h-fit py-10 items-start justify-between'>
+                <div className='flex h-72 flex-col p-5 items-start justify-between'>
+                </div>
+                <div className='w-full flex flex-col items-center'>
+                    <p className='sm:text-[4vw] w-full justify-between flex uppercase pr-5 items-center font-semibold'><hr className='border-b-2 border-zinc-700 w-80'/><span>Accessories is not</span> <NavLink to={`/`}><li className='text-lg list-disc font-bold'>[cart]</li></NavLink></p>
+                    <p className='sm:text-[4vw] font-semibold leading-none uppercase ml-[10%]'>just add-ons</p>
+                    <p className='sm:text-[4vw] font-semibold leading-none uppercase ml-[45%]'>it's essential for</p>
+                    <p className='sm:text-[4vw] font-semibold leading-none w-full flex items-center justify-between uppercase'> <span className='flex flex-col text-sm font-light'><span className='opacity-90'>Total products</span><span className='text-lg font-bold opacity-100'>(365)</span></span> personal style.</p>
+                </div>
+            </div>  
         </div>
     </div>
   )
