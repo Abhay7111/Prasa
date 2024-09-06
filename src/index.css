@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Space Grotesk", system-ui;
+  font-optical-sizing: auto;
+}
+
+html,body{
+  background-color: #f5f5f5;
+  color: #242424;
+}
+
+.bg-css-white{
+  background-color: #f5f5f5;
+}
+
+.space-grotesk {
+  font-family: "Space Grotesk", system-ui;
+  font-optical-sizing: auto;
+}
+
+.inter {
+  font-family: "Inter", system-ui;
+  font-optical-sizing: auto;
+}
+
+.calc-css-h-full{
+  height: calc(100vh - 208px);
+}
