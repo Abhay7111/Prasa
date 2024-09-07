@@ -29,7 +29,7 @@ function Home() {
                 <h2 className='text-4xl sm:text-7xl w-full py-10 sm:pl-0 pl-10 sm:w-fit text-end'>Pieces to match Your style.</h2>
             </div>
             <div className='py-10 w-full h-fit overflow-x-auto'>
-                <div className='flex items-center justify-start gap-5 w-fit px-10 sm:px-0'>
+                <div className='flex items-center justify-start gap-5 w-fit px-4 sm:px-0'>
                 <div className='w-[80vw] sm:w-[32vw] h-96'>
                     <img src="https://cdn.pixabay.com/photo/2018/01/06/23/43/girl-3066198_1280.jpg" alt="Image not found" className='text-xl font-bold uppercase w-full h-full object-cover' />
                 </div>
@@ -50,7 +50,7 @@ function Home() {
                 </div>
             </div>
             <div className='py-10 w-full h-fit overflow-x-auto'>
-                <div className='flex items-center justify-start gap-5 w-fit px-10 sm:px-0'>
+                <div className='flex items-center justify-start gap-5 w-fit px-4 sm:px-0'>
                 <div className='w-[80vw] sm:w-[32vw] bg-[#ddddfa] sm:bg-transparent h-96 p-1 flex flex-col items-start justify-between'>
                     <div>
                         <p className='text-xl font-medium'>132 collections</p>
@@ -81,7 +81,7 @@ function Home() {
                     </div>
             </div>  
             <div className='w-full overflow-x-auto flex items-center justify-start sm:justify-center'>
-                <div className='w-fit h-96 px-5 flex items-center justify-start gap-5'>
+                <div className='w-fit h-96 px-1 sm:px-5 flex items-center justify-start gap-5'>
                     <div className='h-full w-80 p-3 gap-3 flex flex-col items-start justify-end'>
                         <p className='text-sm opacity-80 pr-16'>Our mission is to bring you the latest trends and timeless classics that enhance your individuality. Each piece in our collection is carefully selected its quality, design, and ability to make you feel confident and chic.</p>
                         <NavLink to={`/shopnow`}><li className='relative hover:before:w-full before:absolute before:bg-zinc-800 before:top-full before:left-1/2 before:h-[2px] before:w-0 before:transition-all hover:before:left-0 w-fit px-2 uppercase font-bold tracking-tighter text-sm list-disc'>shop now</li></NavLink>
