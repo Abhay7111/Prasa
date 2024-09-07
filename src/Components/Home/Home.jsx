@@ -112,7 +112,7 @@ function Home() {
                 <div className=' flex flex-col sm:flex-row gap-5 items-end justify-center'>
                 <div className=' relative'>
                 <img src="https://cdn.pixabay.com/photo/2013/11/06/09/59/earrings-206363_1280.jpg" alt="image Not Found" className=' uppercase w-full sm:w-80 sm:h-80 h-auto object-cover text-xl font-bold' />
-                <div className='size-40 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-45'><Squrtlt/></div>
+                <div className='sm:size-40 size-32 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-45'><Squrtlt/></div>
                     <NavLink to={`/collections`}><li className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hover:before:w-full before:absolute before:bg-zinc-800 before:top-full before:left-1/2 before:h-[1px] before:w-0 before:transition-all hover:before:left-0 w-fit px-1 leading-none uppercase tracking-tighter text-xs font-bold list-disc'>collections</li></NavLink>
                 </div>
                 <div className='px-3 flex flex-col items-start w-full gap-3'>
