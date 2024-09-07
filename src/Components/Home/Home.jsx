@@ -16,7 +16,7 @@ function Home() {
             <div className='w-full max-h-full sm:pt-32'>
                 <p className='w-full flex items-center justify-between sm:py-0 py-10'>
                     <p className='opacity-80 sm:w-fit w-[65%]'>Shop now and find the perfect pieces to complete any outfit.</p>
-                    <NavLink to={`/`}><li className='relative hover:before:w-full before:absolute before:bg-zinc-800 before:top-full before:left-1/2 before:h-[2px] before:w-0 before:transition-all hover:before:left-0 w-fit px-2 uppercase tracking-tighter text-sm font-medium list-disc'>shop now</li></NavLink>
+                    <NavLink to={`/shopnow`}><li className='relative hover:before:w-full before:absolute before:bg-zinc-800 before:top-full before:left-1/2 before:h-[2px] before:w-0 before:transition-all hover:before:left-0 w-fit px-2 uppercase tracking-tighter text-sm font-medium list-disc'>shop now</li></NavLink>
                 </p>
                 <img src="https://cdn.pixabay.com/photo/2020/04/22/08/17/portrait-5076529_960_720.jpg" alt="Image not found" className='text-xl font-bold uppercase w-full h-auto sm:max-h-[90%] object-cover' />
             </div>
@@ -39,7 +39,7 @@ function Home() {
                     </div>
                     <div>
                         <p className='opacity-75'>From delicate studs to statement hoops, <br /> each pair is crafted with precision and care, <br /> ensuring you find the perfect earrings <br /> to express your personal style.</p>
-                    <NavLink to={`/`}><li className='relative hover:before:w-full before:absolute before:bg-zinc-800 before:top-full before:left-1/2 before:h-[2px] before:w-0 before:transition-all hover:before:left-0 w-fit px-2 uppercase tracking-tighter text-sm font-bold list-disc'>Go to collections</li></NavLink>
+                    <NavLink to={`/collections`}><li className='relative hover:before:w-full before:absolute before:bg-zinc-800 before:top-full before:left-1/2 before:h-[2px] before:w-0 before:transition-all hover:before:left-0 w-fit px-2 uppercase tracking-tighter text-sm font-bold list-disc'>Go to collections</li></NavLink>
                     </div>
 
                 </div>
@@ -57,7 +57,7 @@ function Home() {
                     </div>
                     <div>
                         <p className='opacity-75'>From delicate studs to statement hoops, <br /> each pair is crafted with precision and care, <br /> ensuring you find the perfect earrings <br /> to express your personal style.</p>
-                        <NavLink to={`/`}><li className='relative hover:before:w-full before:absolute before:bg-zinc-800 before:top-full before:left-1/2 before:h-[2px] before:w-0 before:transition-all hover:before:left-0 w-fit px-2 uppercase tracking-tighter text-sm font-bold list-disc'>Go to collections</li></NavLink>
+                        <NavLink to={`/collections`}><li className='relative hover:before:w-full before:absolute before:bg-zinc-800 before:top-full before:left-1/2 before:h-[2px] before:w-0 before:transition-all hover:before:left-0 w-fit px-2 uppercase tracking-tighter text-sm font-bold list-disc'>Go to collections</li></NavLink>
                     </div>
 
                 </div>
@@ -84,7 +84,7 @@ function Home() {
                 <div className='w-fit h-96 px-5 flex items-center justify-start gap-5'>
                     <div className='h-full w-80 p-3 gap-3 flex flex-col items-start justify-end'>
                         <p className='text-sm opacity-80 pr-16'>Our mission is to bring you the latest trends and timeless classics that enhance your individuality. Each piece in our collection is carefully selected its quality, design, and ability to make you feel confident and chic.</p>
-                        <NavLink to={`/`}><li className='relative hover:before:w-full before:absolute before:bg-zinc-800 before:top-full before:left-1/2 before:h-[2px] before:w-0 before:transition-all hover:before:left-0 w-fit px-2 uppercase font-bold tracking-tighter text-sm list-disc'>shop now</li></NavLink>
+                        <NavLink to={`/shopnow`}><li className='relative hover:before:w-full before:absolute before:bg-zinc-800 before:top-full before:left-1/2 before:h-[2px] before:w-0 before:transition-all hover:before:left-0 w-fit px-2 uppercase font-bold tracking-tighter text-sm list-disc'>shop now</li></NavLink>
                     </div>
                     <div className='h-full w-80 gap-3 flex flex-col p-3'>
                         <p className='w-[60%] font-medium leading-none ml-5 uppercase'>The best materials and craftsmanship.</p>
@@ -113,7 +113,7 @@ function Home() {
                 <img src="https://cdn.pixabay.com/photo/2013/11/06/09/59/earrings-206363_1280.jpg" alt="image Not Found" className=' uppercase w-full sm:w-80 sm:h-80 h-auto object-cover text-xl font-bold' />
                 <div className='px-3 flex flex-col items-start w-full gap-3'>
                     <p className='sm:w-96 opacity-80 text-sm'>Each piece in our collection is carefully selected it's quality, design, and ability to make you feel confident and chic.</p>
-                    <NavLink to={`/`}><li className='relative hover:before:w-full before:absolute before:bg-zinc-800 before:top-full before:left-1/2 before:h-[2px] before:w-0 before:transition-all hover:before:left-0 w-fit px-2 uppercase font-bold tracking-tighter text-sm list-disc'>shop now</li></NavLink>
+                    <NavLink to={`/shopnow`}><li className='relative hover:before:w-full before:absolute before:bg-zinc-800 before:top-full before:left-1/2 before:h-[2px] before:w-0 before:transition-all hover:before:left-0 w-fit px-2 uppercase font-bold tracking-tighter text-sm list-disc'>shop now</li></NavLink>
                 </div>
                 </div>
             </div>

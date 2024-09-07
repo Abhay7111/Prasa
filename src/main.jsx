@@ -6,7 +6,8 @@ import Nav from './Components/Nav/Nav.jsx'
 import Local from './Components/Local/Local.jsx'
 
 const routes= createBrowserRouter([
-  {path:'/', element:<Local/>,}
+  {path:'/', element:<Local/>,},
+  {path:'*', element:'Website in devlopment this path is not found sorry...',}
 ])
 
 createRoot(document.getElementById('root')).render(
