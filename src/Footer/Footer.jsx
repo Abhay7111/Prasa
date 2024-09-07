@@ -34,7 +34,7 @@ function Footer() {
                     <NavLink className={`px-2`} to={`tel:7408638739`}><li className='relative hover:before:w-full before:absolute before:bg-zinc-800 before:top-full before:left-1/2 before:h-[2px] before:w-0 before:transition-all hover:before:left-0 w-fit px-2 my-1'>(+91) 740 863 8739</li ></NavLink>
                 </ul>
             </div>
-            <div className='text-[25vw] sm:text-[20vw] uppercase font-semibold w-full text-center relative'>Prasa. <span className='absolute scale-75 -top-1/2 sm:-top-0 right-0'><Lstr/></span></div>
+            <div className='text-[25vw] sm:text-[20vw] uppercase font-semibold w-full text-center relative sm:py-0 py-10'>Prasa. <span className='absolute scale-75 -top-1/2 sm:-top-0 right-0'><Lstr/></span></div>
         </div>
     </div>
   )
