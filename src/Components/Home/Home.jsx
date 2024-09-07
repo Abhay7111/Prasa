@@ -7,13 +7,13 @@ function Home() {
   return (
     <div className=''>
         <div className='w-full overflow-x-hidden flex flex-col h-fit sm:flex-row items-start justify-between px-5'>
-            <div className='flex relative flex-col items-start justify-between calc-css-h-full pb-10'>
+            <div className='flex relative flex-col items-start justify-between  pb-10 calc-css-h-full'>
                 <h1 className='w-full sm:w-[75%] uppercase relative z-10 font-semibold text-xl mt-10 sm:mt-0'>The heat, soul, and creativity behind the exceptional accessories at prasa</h1>
                 <div className='scale-[1.2] z-0 absolute sm:relative top-[200%] -right-[19%] sm:top-auto sm:right-auto overflow-hidden'>
                 <Lstr/>
                 </div>
             </div>
-            <div className='xl:w-[68%] flex flex-col justify-end items-start z-20 relative h-fit calc-css-h-full'>
+            <div className='xl:w-[68%] flex flex-col justify-end items-start z-20 relative h-fit '>
                 <div className='w-full max-h-full sm:pt-32'>
                     <p className='w-full flex items-center justify-between sm:py-0 py-10'>
                         <p className='opacity-80 sm:w-fit w-[65%]'>Shop now and find the perfect pieces to complete any outfit.</p>
