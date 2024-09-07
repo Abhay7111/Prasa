@@ -7,6 +7,10 @@
   font-optical-sizing: auto;
 }
 
+::-webkit-scrollbar{
+  display: none;
+}
+
 html,body{
   background-color: #f5f5f5;
   color: #242424;
@@ -36,7 +40,7 @@ html,body{
 }
 
 .Lstr{
-  animation: rotate01 3s infinite linear;
+  animation: rotate01 5s infinite linear;
 }
 
 @keyframes rotate01 {
