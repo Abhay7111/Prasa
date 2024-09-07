@@ -1,26 +1,27 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import Lstr from '../dgn/Lstr'
+import Squrtlt from '../dgn/squrtlt'
 
 function Home() {
   return (
     <div className=''>
         <div className='w-full overflow-x-hidden flex flex-col h-fit sm:flex-row items-start justify-between px-5'>
-        <div className='flex relative flex-col items-start justify-between calc-css-h-full pb-10'>
-            <h1 className='w-full sm:w-[75%] uppercase relative z-10 font-semibold text-xl mt-10 sm:mt-0'>The heat, soul, and creativity behind the exceptional accessories at prasa</h1>
-            <div className='scale-[1.2] z-0 absolute sm:relative top-[200%] -right-[19%] sm:top-auto sm:right-auto overflow-hidden'>
-            <Lstr/>
+            <div className='flex relative flex-col items-start justify-between calc-css-h-full pb-10'>
+                <h1 className='w-full sm:w-[75%] uppercase relative z-10 font-semibold text-xl mt-10 sm:mt-0'>The heat, soul, and creativity behind the exceptional accessories at prasa</h1>
+                <div className='scale-[1.2] z-0 absolute sm:relative top-[200%] -right-[19%] sm:top-auto sm:right-auto overflow-hidden'>
+                <Lstr/>
+                </div>
             </div>
-        </div>
-        <div className='xl:w-[68%] flex flex-col justify-end items-start z-20 relative h-fit calc-css-h-full'>
-            <div className='w-full max-h-full sm:pt-32'>
-                <p className='w-full flex items-center justify-between sm:py-0 py-10'>
-                    <p className='opacity-80 sm:w-fit w-[65%]'>Shop now and find the perfect pieces to complete any outfit.</p>
-                    <NavLink to={`/shopnow`}><li className='relative hover:before:w-full before:absolute before:bg-zinc-800 before:top-full before:left-1/2 before:h-[2px] before:w-0 before:transition-all hover:before:left-0 w-fit px-2 uppercase tracking-tighter text-sm font-medium list-disc'>shop now</li></NavLink>
-                </p>
-                <img src="https://cdn.pixabay.com/photo/2020/04/22/08/17/portrait-5076529_960_720.jpg" alt="Image not found" className='text-xl font-bold uppercase w-full h-auto sm:max-h-[90%] object-cover' />
+            <div className='xl:w-[68%] flex flex-col justify-end items-start z-20 relative h-fit calc-css-h-full'>
+                <div className='w-full max-h-full sm:pt-32'>
+                    <p className='w-full flex items-center justify-between sm:py-0 py-10'>
+                        <p className='opacity-80 sm:w-fit w-[65%]'>Shop now and find the perfect pieces to complete any outfit.</p>
+                        <NavLink to={`/shopnow`}><li className='relative hover:before:w-full before:absolute before:bg-zinc-800 before:top-full before:left-1/2 before:h-[2px] before:w-0 before:transition-all hover:before:left-0 w-fit px-2 uppercase tracking-tighter text-sm font-medium list-disc'>shop now</li></NavLink>
+                    </p>
+                    <img src="https://cdn.pixabay.com/photo/2020/04/22/08/17/portrait-5076529_960_720.jpg" alt="Image not found" className='text-xl font-bold uppercase w-full h-auto sm:max-h-[90%] object-cover' />
+                </div>
             </div>
-        </div>
         </div>
         <div className=' w-full pt-10 h-fit'>
             <div className='flex flex-col sm:flex-row sm:items-center justify-center sm:justify-between'>
@@ -69,7 +70,6 @@ function Home() {
                 </div>
                 </div>
             </div>
-
         </div>
         <div className='flex flex-col w-full'>
             <div className='flex w-full h-fit py-10 items-start justify-between pl-3 sm:px-5'>
@@ -110,7 +110,11 @@ function Home() {
                 <p className='text-sm sm:text-xl sm:w-[90%] font-medium'>For over 10 years, we've dedicated ourselves to curationg a collection of stylish, high-quality accessories that help you express your unique personality.</p>
                 </div>
                 <div className=' flex flex-col sm:flex-row gap-5 items-end justify-center'>
+                <div className=' relative'>
                 <img src="https://cdn.pixabay.com/photo/2013/11/06/09/59/earrings-206363_1280.jpg" alt="image Not Found" className=' uppercase w-full sm:w-80 sm:h-80 h-auto object-cover text-xl font-bold' />
+                <div className='size-40 absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-45'><Squrtlt/></div>
+                    <NavLink to={`/collections`}><li className='absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 hover:before:w-full before:absolute before:bg-zinc-800 before:top-full before:left-1/2 before:h-[1px] before:w-0 before:transition-all hover:before:left-0 w-fit px-1 leading-none uppercase tracking-tighter text-xs font-bold list-disc'>collections</li></NavLink>
+                </div>
                 <div className='px-3 flex flex-col items-start w-full gap-3'>
                     <p className='sm:w-96 opacity-80 text-sm'>Each piece in our collection is carefully selected it's quality, design, and ability to make you feel confident and chic.</p>
                     <NavLink to={`/shopnow`}><li className='relative hover:before:w-full before:absolute before:bg-zinc-800 before:top-full before:left-1/2 before:h-[2px] before:w-0 before:transition-all hover:before:left-0 w-fit px-2 uppercase font-bold tracking-tighter text-sm list-disc'>shop now</li></NavLink>
