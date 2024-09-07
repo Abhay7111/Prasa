@@ -103,7 +103,7 @@ function Home() {
                 </div>
             </div>
         </div>
-        <div className='flex flex-col sm:flex-row py-10 sm:gap-0 gap-10'>
+        <div className='flex flex-col sm:flex-row py-10 sm:gap-0 gap-10 overflow-x-hidden'>
             <div className='px-5 flex flex-col gap-20 sm:w-[65%]'>
                 <div className='flex flex-col gap-5'>
                 <h1 className='text-[11vw] sm:text-[6vw] font-semibold leading-none uppercase'>From passion <br /> to personal <br /> style</h1>
@@ -121,7 +121,7 @@ function Home() {
                 </div>
                 </div>
             </div>
-            <div className='px-5 flex flex-col gap-20 sm:w-[35%]'>
+            <div className='px-5 flex flex-col gap-20 sm:w-[33%] overflow-hidden'>
                 <div className='flex relative gap-5 sm:items-end justify-between'>
                     <div className='absolute sm:relative sm:top-0 sm:left-0 top-[30%] -left-[19%] sm:scale-[1.2] scale-[0.8]'>
                     <Lstr/>
