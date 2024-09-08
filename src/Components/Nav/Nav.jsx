@@ -13,7 +13,7 @@ function Nav() {
                     <NavLink to={`/`} className={({isActive}) =>` ${isActive ? 'if-css-active' : ''} relative hvr-css-before px-1`}>Home</NavLink>
                     <NavLink to={`/about`} className={({isActive}) =>` ${isActive ? 'if-css-active' : ''} relative hvr-css-before px-1`}>About</NavLink>
                 </ul>
-                    <NavLink to={`/`} className={({isActive}) =>` ${isActive ? 'if-css-active' : ''} relative hvr-css-before px-1`}>Home</NavLink>
+                    <NavLink to={`/shopnow`} className={({isActive}) =>` ${isActive ? 'if-css-active' : ''} relative hvr-css-before px-1`}>Shop now</NavLink>
             </ul>
             <div className=' w-full  sm:pr-3 py-3 border-t border-zinc-400'>
                 <p className=' w-full sm:w-[70%] text-sm leading-4 tracking-tighter opacity-85'>Discover a curated selection of stylish accessories to elevate your look. From statement jewelry to trendy bags, we have everything you need to express your unique style.</p>
