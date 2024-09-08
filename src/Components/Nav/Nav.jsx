@@ -10,10 +10,10 @@ function Nav() {
         <div className='flex flex-col w-full pl-5'>
             <ul className='flex gap-2 sm:gap-0 w-full items-end sm:items-start justify-between sm:pl-5 py-3'>
                 <ul className='flex gap-6'>
-                    <NavLink to={`/`}><li className='uppercase tracking-tighter text-sm font-medium list-disc relative hover:before:w-full before:absolute before:bg-zinc-800 before:top-full before:left-1/2 before:h-[2px] before:w-0 before:transition-all hover:before:left-0'>Home</li></NavLink>
-                    <NavLink to={`/About`}><li className='uppercase tracking-tighter text-sm font-medium list-disc relative hover:before:w-full before:absolute before:bg-zinc-800 before:top-full before:left-1/2 before:h-[2px] before:w-0 before:transition-all hover:before:left-0'>About</li></NavLink>
+                    <NavLink to={`/`} className={({isActive}) =>` ${isActive ? 'if-css-active' : ''} relative hvr-css-before px-1`}>Home</NavLink>
+                    <NavLink to={`/about`} className={({isActive}) =>` ${isActive ? 'if-css-active' : ''} relative hvr-css-before px-1`}>About</NavLink>
                 </ul>
-                    <NavLink to={`/shopnow`}><li className='uppercase tracking-tighter text-sm font-medium list-disc relative hover:before:w-full before:absolute before:bg-zinc-800 before:top-full before:left-1/2 before:h-[2px] before:w-0 before:transition-all hover:before:left-0'>shop now</li></NavLink>
+                    <NavLink to={`/`} className={({isActive}) =>` ${isActive ? 'if-css-active' : ''} relative hvr-css-before px-1`}>Home</NavLink>
             </ul>
             <div className=' w-full  sm:pr-3 py-3 border-t border-zinc-400'>
                 <p className=' w-full sm:w-[70%] text-sm leading-4 tracking-tighter opacity-85'>Discover a curated selection of stylish accessories to elevate your look. From statement jewelry to trendy bags, we have everything you need to express your unique style.</p>
