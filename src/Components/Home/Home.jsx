@@ -80,7 +80,7 @@ function Home() {
                         <p className='sm:text-[4vw] text-[9vw] font-semibold leading-none w-full flex flex-col-reverse gap-5 sm:gap-0 sm:flex-row sm:items-center justify-between uppercase'> <span className='flex flex-col text-sm font-light'><span className='opacity-90'>Total products</span><span className='text-lg font-bold opacity-100'>(365)</span></span> personal style.</p>
                     </div>
             </div>  
-            <div className='w-full overflow-x-auto flex items-center justify-start sm:justify-center'>
+            <div className='w-full overflow-x-auto flex items-center justify-start'>
                 <div className='w-fit h-96 px-1 sm:px-5 flex items-center justify-start gap-5'>
                     <div className='h-full w-80 p-3 gap-3 flex flex-col items-start justify-end'>
                         <p className='text-sm opacity-80 pr-16'>Our mission is to bring you the latest trends and timeless classics that enhance your individuality. Each piece in our collection is carefully selected its quality, design, and ability to make you feel confident and chic.</p>
@@ -98,7 +98,12 @@ function Home() {
                         <img src="https://cdn.pixabay.com/photo/2017/05/12/11/30/girl-2306831_1280.jpg" alt="image Not Found" className=' uppercase w-full h-full object-cover text-xl font-bold' />
                     </div>
                     <div className='h-full w-80 gap-3 flex flex-col p-3'>
-                        <img src="https://cdn.pixabay.com/photo/2015/12/13/05/45/jewels-1090711_1280.jpg" alt="image Not Found" className=' uppercase w-full h-full object-cover text-xl font-bold' />
+                        <img src="https://cdn.pixabay.com/photo/2016/12/01/14/39/rose-gold-1875469_1280.jpg" alt="image Not Found" className=' uppercase w-full h-full object-cover text-xl font-bold' />
+                        <p className='w-[50%] font-medium leading-none ml-5 uppercase'>Find the perfect</p>
+                    </div>
+                    <div className='h-full w-80 gap-3 flex flex-col p-3'>
+                        <p className='w-[60%] font-medium leading-none ml-5 uppercase'>Pieces to match Your style.</p>
+                        <img src="https://cdn.pixabay.com/photo/2017/08/06/15/09/earrings-2593350_1280.jpg" alt="image Not Found" className=' uppercase w-full h-full object-cover object-left text-xl font-bold' />
                     </div>
                 </div>
             </div>
