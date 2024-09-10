@@ -1,5 +1,5 @@
 import React from 'react'
-import Lstr from '../Components/dgn/Lstr'
+import Lstr from '../dgn/Lstr'
 import { NavLink } from 'react-router-dom'
 
 function Footer() {
