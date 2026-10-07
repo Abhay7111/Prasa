@@ -4,15 +4,15 @@ import { NavLink } from 'react-router-dom'
 
 function Footer() {
   return (
-    <div className='w-full flex sm:flex-row flex-col items-center min-h-screen border-t-2 border-zinc-500'>
-        <div className=' h-fit sm:h-screen flex flex-col items-start justify-between sm:border-r sm:border-b-0 border-b border-zinc-400 w-full sm:w-[30%] p-5'>
+    <div className='w-full flex sm:flex-row flex-col items-center border-t-2 border-zinc-400'>
+        <div className=' h-fit sm:h-scree flex flex-col items-start justify-between sm:border-r sm:border-b-0 border-b border-zinc-400 w-full sm:w-[30%] p-5'>
             <h2 className='uppercase w-[70%] text-xl font-medium pb-10'>The heart, soul, and creativity behind the exceptional accessories at prasa</h2>
             <div className='w-full flex items-center justify-center scale-75 py-10'>
             <Lstr/>
             </div>
             <p className='opacity-70 sm:pb-10 w-[95%] text-center sm:w-[90%] pt-10'>Curating a collection of stylish, high-quality accessories that help you express your unique personality.</p>
         </div>
-        <div className=' h-fit sm:h-screen sm:w-[70%] p-5 w-full flex flex-col'>
+        <div className=' h-fit sm:w-[70%] p-5 w-full flex flex-col'>
             <div className='h-[35vh] sm:h-1/2 w-full flex flex-col sm:flex-row p-5 items-start justify-between'>
                 <ul className='flex gap-20'>
                     <ul>

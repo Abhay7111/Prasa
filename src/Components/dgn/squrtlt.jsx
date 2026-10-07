@@ -1,6 +1,3 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
-
 function Squrtlt() {
   return (
     <div className='w-full relative h-full flex items-center justify-center'>
